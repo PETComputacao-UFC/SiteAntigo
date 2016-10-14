@@ -1,0 +1,242 @@
+body{
+    font-family: "Open Sans";
+}
+header{
+    min-height: 67px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+header a{
+    color: white;
+}
+.navbar-toggle-clr{
+    padding: 0 10px !important;
+    margin-top: 4px !important;
+    margin-right: 0px !important;
+    margin-bottom: 2px!important;
+}
+.glyphicon-menu-hamburger{
+    font-size: 20px;
+    color: white;
+}
+.centered{
+    margin: 0 auto !important;
+    float: none !important;
+}
+footer{
+    margin-top: 15px;
+}
+.navbar-brand{
+    padding: 0;
+}
+.tam-reduzido{
+    max-width: 800px;
+}
+.tam-reduzido img{
+    margin-bottom: 15px;
+}
+
+.petianos, .contato{
+    background-image: url(/img/bkg-petianos-quadrados.png);
+}
+
+.petianos img{
+    border: solid 1px black;
+}
+.petianos tutor{
+    border:  solid 5px #414042 !important;
+}
+.petianos, .contato{
+    background-color: #414042;
+}
+.petianos h2, .contato h2{
+    color: #fad41b;
+}
+.petiano-margem{
+    padding-bottom: 10px;
+}
+
+.banner{
+    padding-top: 50px !important;
+}
+@media (max-width: 768px) {
+  .sobre h3{
+    font-size: 15px;
+  }
+}
+.sobre h2{
+    padding-bottom: 30px;
+}
+#about, #pet, #atv, #contact, #top{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+#about h2, #pet h2, #atv h2, #contact h2, #top h2{
+    padding-top: 30px;
+}
+
+.contato{
+    color: white;
+}
+.contato img{
+}
+#contact figure figcaption {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+
+
+
+
+
+.include-container {
+	font-family: Open Sans;
+	margin-left: 40px;
+	background-color: rgb(65,64,66);
+
+	color: white;
+}
+
+.include-header {
+	font-size: 40px;
+	padding: 20px;
+    margin-bottom: 30px;
+}
+
+.include-header h1{
+	font-size: 50px;
+}
+
+.include-header img {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+
+	border-radius: 8%;
+}
+
+.include-cronograma dia {
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.include-cronograma ul{
+	list-style-type: none;
+}
+
+.include-cronograma ul li ul li {
+	color: rgb(250,212,27);
+
+}
+
+.include-mapa {
+	padding: 20px;
+	font-size: 25px;
+}
+
+
+.include-mapa img {
+	width: 75%;	
+	border-radius: 8%;
+}
+
+@media (min-width: 770px) {
+	.include-mapa img {
+	max-width: 700px;	
+    }
+}
+
+.selecao2015 h3 {
+    text-decoration: none;
+    color: rgb(250,212,27) ;
+}
+
+.selecao2015 a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+.selecao2015 a div {
+    margin-top: 60px;
+    background-image: url(/img/bkg-petianos-quadrados.png);
+    padding: 0 auto;
+    
+    background-color: #414042;
+    width: 100%;
+}
+
+.selecao2015 a div img {
+    padding: 25px auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width 70%;
+}
+
+.selecao2015 a { 
+    text-align: center;
+    padding: 25px auto;
+}
+
+@media (max-width: 770px) {
+	.selecao2015 a div img {
+	width: 70%;	
+    }
+}
+
+.selecao2015 a div {
+    margin-top: 51px;
+}
+
+.selecao_etapas {
+    padding: 60px;
+}
+
+.selecao_etapas ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.selecao_etapas ul {
+    list-style-type: none;
+}
+
+.selecao_etapas ul li ul {
+    list-style-type: disc;
+    padding-left: 50px;
+}
+
+.selecao_etapas ul li ul li {
+    padding: 0;
+}
+
+.selecao_etapas ul li p {
+    padding-left: 30px;
+}
+
+.selecao_etapas ul li {
+    padding: 10px;
+}
+
+.selecao_sobre {
+    margin-top: 51px;
+    margin-bottom: 51px;
+    color: white;
+    padding: 60px;
+    background-image: url(/img/bkg-petianos-quadrados.png);
+    background-color: rgb(65,64,66);
+}
+
+.selecao_sobre a {
+    text-decoration: none;
+    color: white;
+}
+
+.selecao_sobre img {
+    width:70%;
+}
+
+@media (min-width: 770px) {
+	.selecao_sobre img {
+	max-width: 400px;	
+    }
+}

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>PET Computação</title>
+        <meta charset="utf-8">
+        
+        <link rel="shortcut icon" href="icon.ico" type="image/x-icon"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="shortcut icon" href="images/icone.png">
+    </head>
+
+
+    <!-- *Menu, *logo/banner, sobre, membros, *atividades, *rodapé -->
+
+
+    <body>
+        <header class="navbar navbar-defaut navbar-fixed-top"><!-- navbar-default Configura a barra para ser cinza ||  navbar-default navbar-fixed-top fixa a barra no topo quando tiver barra de rolagem -->
+            <div class="container">
+                
+                
+                <a href="#top" class="navbar-brand">
+                    <img src="img/logo-colorida-ext-a.png" alt="Pet Computação UFC" height="100%">
+                </a>
+                
+                <button class="navbar-toggle navbar-toggle-clr" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                    <!--img src="img/logoMenu40-a.png"-->
+                    <img src="img/menu-40.png">
+                </button>  
+                
+                <div class="col-xs-12 pull-right collapse navbar-collapse navHeaderCollapse">
+                    
+                    <ul class="nav navbar-nav navbar-right" >  
+                        <li><a href= "#about">Sobre</a></li>
+                        <li><a href="#pet">Petianos</a></li>
+                        <li><a href="#atv">Atividades</a></li>
+                        <li><a href="http://www.certificadospet.esy.es">Certificados XI SAC</a></li>
+                        <li><a href= "#contact">Contato</a></li>
+                        <li><a href= "selecao/index.html">Seleção</a></li>
+                        <!--<li><a href= "#contact" data-toggle = "modal">Sobre</a></li>   usado para abrir pop up que está no fim no código-->
+                        
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Banner ou foto do grupo
+
+        <section class="banner" id="top">
+            <img src="img/BKGc.png" width="100%">
+            <div class="container">
+                <div class="row">
+                    <div class= "col-lg-12">
+                        <!--
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <!-- Banner inicial- ->
+                                <img src="img/banner2.png" width="100%">
+                            </div>
+                        </div>
+                        - ->
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <selection class="selecao_banner" id="selecao">
+            <div class="container">
+                        <a href="selecao/index.html">
+                            <img src="img/selecao2.png">
+                            <h3>Clique para mais informações</h3>
+                        </a>
+            </div>
+        
+        </selection>
+              
+        <section class="sobre" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class= "col-lg-12">
+                        <center><h2>Unimos tudo em um único grupo</h2></center>
+                        <center><div class="tam-reduzido">
+                            <div class="col-sm-4 col-xs-4">
+                                <div>
+                                    <img src="img/icones/ensino.png" alt="..." width = "100%">
+                                    <div class="caption">
+                                        <h3>Ensino</h3>
+                                        <p class="hidden-xs">Projetos para melhorar a graduação de Computação na Universidade Federal do Ceará</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-4">
+                                <div>
+                                    <img src="img/icones/pesquisa.png" alt="..." width = "100%">
+                                    <div class="caption">
+                                        <h3>Pesquisa</h3>
+                                        <p class="hidden-xs">Bancos de Dados, Computação Gráfica, Inteligência Artificial, Interação Humano Computador e Seguraçã da Informação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-4">
+                                <div>
+                                    <img src="img/icones/extes%C3%A3o.png" alt="..." width = "100%">
+                                    <div class="caption">
+                                        <h3>Extensão</h3>
+                                        <p class="hidden-xs">Organizamos a Semana Acadêmica da Computação e Olímpiada Cearense de Informática</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></center>
+                        <!--
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <!-- Banner inicial- ->
+                                <img src="img/banner2.png" width="100%">
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="petianos" id="pet">
+            <div class="container">
+                <center>
+                    <div class="row">
+                        
+                        <div class= "col-xs-12">
+                            <div class="page-header">
+                            <center><h2>Estes somos nós<h2></center>
+                            </div>
+                        </div>
+                            <div class="col-md-10 col-md-push-1 team">
+                            <center>
+                                
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3 tutor">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/lincoln-c.png" alt="Lincoln Rocha, Tutor" title="Lincoln Rocha" class="img-circle">
+                                    </a>
+                                </div>
+
+                                                            
+                                
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/adahil2-c.png" title="Adahil Muniz" class="img-circle">
+                                    </a>
+                                </div>
+                                
+                                
+
+                                
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/alef-c.png" title="Alef Carneiro" class="img-circle">
+                                    </a>
+                                </div>
+
+
+
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/andreza-c.png" title="Andreza Fernandes" class="img-circle">
+                                    </a>
+                                </div>                                
+                                
+
+                                
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/cid2-c.png" title="Caio Cid" class="img-circle">
+                                    </a>
+                                </div>
+                                
+                               
+
+                                
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/debora-c.png" title="Débora Moura" class="img-circle">
+                                    </a>
+                                </div>
+                                
+
+                                
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/fernando-c.png" title="Fernando Araújo" class="img-circle">
+                                    </a>
+                                </div>
+                                
+
+
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/gabriel-c.png" title="Gabriel Gomes" class="img-circle">
+                                    </a>
+                                </div>
+
+
+
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/matheus2-c.png" title="Matheus Magalhães" class="img-circle">
+                                    </a>
+                                </div>
+                                
+
+
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/minho-c.png" title="Minho Menezes" class="img-circle">
+                                    </a>
+                                </div>
+
+
+
+                                <div class="petiano-margem col-xs-6 col-sm-4 col-md-3">
+                                    <a href="#pg-petiano" data-toggle = "modal">
+                                        <img src="img/petianos/pablo-c.png" title="Pablo Emanuhel" class="img-circle">
+                                    </a>
+                                </div>
+                                </div>
+                        </center>
+                        </div>
+                        
+                        
+                    </div>
+                </center>
+            </div>
+        </section>
+                
+        <section class="atividades" id="atv">
+            <div class="container">
+                <div class="row">
+                    <div class= "col-xs-12">
+                        <div class="page-header">
+                            <center><h2>Nossas atividades<h2></center>
+                        </div> 
+                    </div>
+                            
+                    <div class="col-md-10 col-md-push-1"
+                    <center>
+                            <a href="atividades/Arduino.html" data-toggle = "modal">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/arduino_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>Arduino</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="atividades/UWeb.html" data-toggle = "modal">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/uweb_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>UWeb</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="atividades/Design.html" data-toggle = "modal">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/design_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>Design</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="atividades/SAC.html">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/sac_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>Semana Acadêmica da Computação</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="atividades/Include.html" data-toggle = "modal">   
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/include_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>Include</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="atividades/Coding.html" data-toggle = "modal">   
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/coding_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>Coding</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="atividades/BDjr.html" data-toggle = "modal">   
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/bd-jr2_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>BDjr</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                        <!--<a href="atividades/P-SEC.html" data-toggle = "modal">   
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/psec_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>P-SEC</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a> Atividade P-SEC -->
+
+                            <a href="atividades/Monitoria.html" data-toggle = "modal">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/monitoria_logo.png" alt="Monitoria" width="100%">
+                                        <div class="caption">
+                                            <h4>Monitoria</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <a href="atividades/Games.html" data-toggle = "modal">   
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/games_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>GGames</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <a href="atividades/OCI.html">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/oci_logo.png" alt="..." width="100%">
+                                        <div class="caption">
+                                            <h4>Olimpiada Cearense de Informática</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="atividades/Palestras.html" data-toggle = "modal">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/palestras_logo.png" alt="Monitoria" width="100%">
+                                        <div class="caption">
+                                            <h4>Ciclo de Palestras de Pesquisa</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!--<a href="#pg-petiano" data-toggle = "modal">
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="img/logos/workshops_logo.png" alt="Workshops" width="100%">
+                                        <div class="caption">
+                                            <h4>Workshops</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>-->
+                            
+                            
+                       
+                    </center>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <footer class="contato navbar navbar-static-bottom" id="contact">
+            <div class="container">
+                <div class="row">
+                    <!--div class= "col-xs-12">
+                        <div class="page-header">
+                            <center><h2>Aqui, como entrar em contato<h2></center>
+                        </div>
+                    </div-->
+                            
+                    <div class="col-xs-12 col-sm-6 co l-md-5">
+                        <center>
+                            <img class="hidden-sm" src="img/logo-colorida-ext-a.png" width="100%">
+                            <img class="visible-sm-block" src="img/logoPET-a.png" width="100%">
+                            <!--img class="visible-xs-block" src="img/logoPET-contato-xs-a.png" width="100%"-->
+                        </center>
+                    </div>
+                    <div class="clearfix visible-md-block"></div>        
+                    <div class="col-sm-6 col-md-10 col-md-push-1">
+                        <div class="row">
+                            <div class="col-xs- col-md-5 col-md-push-1 col-lg-7">
+                                <p>
+                                    Av. Humberto Monte, s/n<br>
+                                    Campus do Pici - Bloco 910 - Departamento de Computação<br>
+                                    Fortaleza CE
+                                 </p>
+                            </div>
+                            <div class="col-xs- col-md-7 col-md-push-1 col-lg-5">
+                                <figure>
+                                    <img src="img/icones/phone.png">
+                                    <figcaption>85 3366.9433 - ramal 218</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="img/icones/email.png">
+                                    <figcaption>petcomputacaoufc@gmail.com</figcaption>
+                                </figure>
+                                <div class="clear"></div>
+                                <figure>
+                                    <img src="img/icones/facebook.png">
+                                    <figcaption>/PETComputacaoUFC</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+            </div>
+        </footer>
+        
+                
+        <!--Janela que sobrepoe ao clicar no icone  -->
+        <div class="modal fade" id="pg-petiano" role="dial">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <center>
+                        <img src="img/logoNav.png">
+                        <h2>Pedimos desculpas!</h2>
+                        <h3>Nosso site está em construção e esta área ainda nao foi concluida<h3>
+                    </center>
+                    
+                </div>
+            </div>
+        </div>
+                
+        <div class="modal fade" id="pg-include" role="dial">
+            <div class="modal-dialog">
+                <div class="modal-content include-container"> 
+                    
+                    <div class="include-header">
+                        <img src="img/logos/IncludeA.png" alt="Include e Semana Zero">
+                        <div>
+                            <h1>#Include</h1>
+                        </div>    
+                        
+                    </div>
+
+                    <div class="include-cronograma">
+                        <ul>
+                            <li>
+                                <h2><dia>09/fev</dia> || Segunda-Feira</h2>
+                                <ul>
+                                    <li>Programa de Educação Tutorial</li>
+                                    <li>Grupo de Estudos para a Maratona de Programação</li>
+                                    <li>Professor José Maria</li>
+                                    <li>Dinâmica I</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <h2><dia>10/fev</dia> || Terça-Feira</h2>
+                                <ul>
+                                    <li>CEOS</li>
+                                    <li>LSBD</li>
+                                    <li>Professor Marcelino Pequeno</li>
+                                    <li>Centro Acadêmico</li>
+                                    <li>Apresentação dos Professores</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <h2><dia>11/fev</dia> || Quarta-Feira</h2>
+                                <ul>
+                                    <li>LogIA</li>
+                                    <li>ParGO</li>
+                                    <li>CRAB</li>
+                                    <li>Professor João Fernando</li>
+                                    <li>BDJr</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <h2><dia>12/fev</dia> || Quinta-Feira</h2>
+                                <ul>
+                                    <li>ARIDA</li>
+                                    <li>GREAT</li>
+                                    <li>Dinâmica II</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <h2><dia>13/fev</dia> || Sexta-Feira</h2>
+                                <ul>
+                                    <li>UFC Tour</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="include-mapa">
+                        <h2>Como chegar?</h2>
+                            <img src="img/mapa.png" alt="Mapa UFC">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/style.js"></script>
+        
+
+                
+                <!-- Script do google analitics-->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-58690122-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>
